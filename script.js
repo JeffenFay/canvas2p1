@@ -6,7 +6,7 @@ var ctx = c.getContext("2d");
 ctx.translate(200,0);
 ctx.rotate(45*Math.PI/180);
 ctx.fillStyle = '#E85';
-ctx.fillRect(15, 15, 140, 140);
+ctx.fillRect(14, 14, 141, 141);
 
 ctx.setTransform(1, 0, 0, 1, 0, 0);
 
